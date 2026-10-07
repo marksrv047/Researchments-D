@@ -1,19 +1,19 @@
-## 📌 Description
+## Description
 <!-- Provide a brief summary of the changes or the project being added -->
 
-## 🗂️ Type of Change
-- [ ] 🚀 New Project / Sub-package (`projects/<name>`)
-- [ ] 🔬 Research Notes / Exploration (`docs/...`)
-- [ ] 🛠️ Improvement / Feature in existing project
-- [ ] 🐛 Bug fix
-- [ ] 📝 Documentation update
+## Type of Change
+- [ ] New Project / Sub-package (`projects/<name>`)
+- [ ] Research Notes / Analysis (`docs/...`)
+- [ ] Improvement / Feature in existing project
+- [ ] Bug fix
+- [ ] Documentation update
 
-## 🧪 How Has This Been Tested?
+## Verification and Testing
 <!-- Describe the tests, commands, or local steps used to verify this code -->
 - [ ] Ran locally without errors
-- [ ] Tested dependencies installation (`requirements.txt` / `package.json`)
+- [ ] Verified clean dependency installation (`requirements.txt` / `package.json`)
 
-## 📋 Contributor Checklist
+## Contributor Checklist
 - [ ] My code adheres to the project guidelines in [CONTRIBUTING.md](../CONTRIBUTING.md).
 - [ ] I have included / updated a `README.md` in my project folder.
 - [ ] I have not committed any sensitive information (API keys, credentials, `.env`).

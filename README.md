@@ -1,89 +1,100 @@
-# Researchments & D. 🔬💻
+<div align="center">
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![Status](https://img.shields.io/badge/Status-Active%20Development-blue.svg)](#)
-[![Collaboration](https://img.shields.io/badge/Collaboration-Open%20to%20Team-orange.svg)](#)
+<img src="assets/banner.svg" alt="Researchments &amp; D. Banner" width="100%" />
 
-> **Welcome to Researchments & Development (R&D)** — a collaborative open-source lab and workspace where friends and developers brainstorm, experiment, build, and publish cutting-edge software and research projects.
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="License: MIT" /></a>
+  <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/Contributions-Welcome-success.svg?style=flat-square" alt="Contributions Welcome" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/Status-Active%20Development-informational.svg?style=flat-square" alt="Status: Active" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/Team-Open%20Workspace-blueviolet.svg?style=flat-square" alt="Team Access" /></a>
+</p>
+
+<p align="center">
+  <strong>An open collaborative workspace for software engineering, applied research, and experimental prototyping.</strong>
+</p>
 
 ---
 
-## 📖 About The Collective
+</div>
 
-**Researchments & D.** was founded as a shared creative studio to turn curiosity into working software. Whether it's testing a machine learning hypothesis, architecting a full-stack tool, experimenting with novel algorithms, or drafting academic write-ups, this repository serves as our collective hub.
+## About the Collective
+
+**Researchments & D.** is a shared collaborative studio established for Mark and team members to brainstorm, construct, and document experimental technology initiatives. From validating computational hypotheses and benchmarking models to building full-stack applications and utilities, this repository serves as our collective engineering workshop.
 
 ### Core Objectives
-* 🚀 **Rapid Prototyping:** Build proof-of-concept projects and explore emerging technologies.
-* 🤝 **Collaborative Development:** Practice team workflows, git conventions, peer code reviews, and shared ownership.
-* 📚 **Knowledge Sharing:** Document research methodologies, findings, benchmark results, and implementation architectures.
-* 🌐 **Showcase:** Provide an open portfolio of projects built individually and jointly.
+
+- **Rapid Prototyping:** Ideate and build proof-of-concept projects across diverse domains and technologies.
+- **Collaborative Engineering:** Practice modern team workflows, branch conventions, peer reviews, and code standards.
+- **Technical Documentation:** Document research methodologies, findings, architecture designs, and implementation notes.
+- **Centralized Showcase:** Provide an organized index of individual and joint works.
 
 ---
 
-## 🗂️ Repository Structure
+## Repository Architecture
 
-All projects live in isolated directories within `projects/`, giving each project its own dependencies, documentation, and configuration without conflicting with others:
+Every project is isolated within the `projects/` directory to ensure modularity, independent dependency management, and clean version tracking:
 
 ```text
 Researchments-D/
 ├── .github/
 │   ├── ISSUE_TEMPLATE/
-│   │   ├── project_proposal.md   # Propose a new collaborative project
-│   │   └── bug_report.md         # Report bugs or technical issues
-│   └── PULL_REQUEST_TEMPLATE.md  # Standard checklist for code reviews
-├── docs/                         # Shared research notes, papers & resources
-├── projects/                     # Central directory for all sub-projects
-│   ├── README.md                 # Guide on adding and organizing projects
-│   └── _template/                # Starter boilerplate for new project submissions
-├── CONTRIBUTING.md               # Contribution workflow and team standards
-├── LICENSE                       # MIT License
-└── README.md                     # You are here!
+│   │   ├── project_proposal.md     # Template for proposing new projects
+│   │   └── bug_report.md           # Standard bug reporting format
+│   └── PULL_REQUEST_TEMPLATE.md    # Checklist and guidelines for pull requests
+├── assets/
+│   └── banner.svg                  # Repository branding and graphics
+├── docs/                           # Shared research papers, notes, and references
+├── projects/                       # Directory containing all independent sub-projects
+│   ├── README.md                   # Guide for organizing and adding projects
+│   └── _template/                  # Starter template for new sub-projects
+├── CONTRIBUTING.md                 # Contribution workflow, git standards, and setup
+├── LICENSE                         # MIT License
+└── README.md                       # Main documentation portal
 ```
 
 ---
 
-## 🚀 Projects Showcase
+## Projects Showcase
 
 | Project | Description | Lead / Contributors | Stack / Domain | Status |
 | :--- | :--- | :--- | :--- | :---: |
-| *[Your Project Here]* | *Propose and add your project directory under `projects/`* | *@username* | *Python / React / C++ / etc.* | `In Progress` |
+| *[Project Directory]* | *Brief overview of the tool, experiment, or paper* | *@username* | *Python / TypeScript / Go / etc.* | `In Development` |
 
-> 💡 **Have an idea?** Check out [CONTRIBUTING.md](CONTRIBUTING.md) to see how you and the team can spin up a new project!
+> Details on how to submit a new project proposal and register it in this table can be found in [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ---
 
-## 🛠️ Contribution & Team Workflow
+## Contribution and Team Workflow
 
-We use a lightweight, structured workflow so anyone on the team can contribute smoothly:
+All team members follow a standard branching and review workflow:
 
-1. **Discuss & Propose:** Open an issue using the [Project Proposal Template](.github/ISSUE_TEMPLATE/project_proposal.md) to pitch the concept to the team.
-2. **Branch Out:** Create a dedicated branch for your work:
+1. **Proposal and Discussion:** Open an issue using the [Project Proposal](.github/ISSUE_TEMPLATE/project_proposal.md) template to align on objectives and tech stack.
+2. **Branch Creation:** Create an isolated feature or research branch:
    ```bash
-   git checkout -b feat/your-project-name
-   # or for research papers/experiments:
-   git checkout -b research/topic-name
+   git checkout -b feat/project-title
+   # or for analytical and exploratory work:
+   git checkout -b research/topic-title
    ```
-3. **Build in `projects/`:** Create a new folder under `projects/<your-project-name>` containing your code and a dedicated `README.md` (see [`projects/_template`](projects/README.md)).
-4. **Pull Request:** Push your branch and open a Pull Request against `main`. Tag your collaborators for a review!
-5. **Merge & Celebrate:** Once approved, merge it into `main` and update the [Projects Showcase](#-projects-showcase) table above.
+3. **Development in `projects/`:** Initialize a dedicated directory under `projects/<project-title>` containing source code, environment specifications, and a project-level `README.md`.
+4. **Pull Request:** Push the branch to GitHub and create a Pull Request against `main`. Assign teammates for review.
+5. **Review and Integration:** After passing review, merge into `main` and update the Projects Showcase table.
 
-Full details are documented in [CONTRIBUTING.md](CONTRIBUTING.md).
-
----
-
-## 👥 Contributors & Maintainers
-
-Maintained by **[@marksrv047](https://github.com/marksrv047)** and friends.
-
-<a href="https://github.com/marksrv047/Researchments-D/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=marksrv047/Researchments-D" alt="Contributors" />
-</a>
-
-*Contributions from team members and invited collaborators are always welcome!*
+Read the complete specifications in [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ---
 
-## 📜 License
+## Contributors and Maintainers
 
-This repository is licensed under the [MIT License](LICENSE) — feel free to use, modify, and build upon the work here.
+Coordinated by **[@marksrv047](https://github.com/marksrv047)** and collaborators.
+
+<div align="left">
+  <a href="https://github.com/marksrv047/Researchments-D/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=marksrv047/Researchments-D" alt="Contributors" />
+  </a>
+</div>
+
+---
+
+## License
+
+This repository is distributed under the terms of the [MIT License](LICENSE).
