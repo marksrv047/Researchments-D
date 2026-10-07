@@ -76,8 +76,8 @@ Full details are documented in [CONTRIBUTING.md](CONTRIBUTING.md).
 
 Maintained by **[@marksrv047](https://github.com/marksrv047)** and friends.
 
-<a href="https://github.com/marksrv047/Researchments-D./graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=marksrv047/Researchments-D." alt="Contributors" />
+<a href="https://github.com/marksrv047/Researchments-D/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=marksrv047/Researchments-D" alt="Contributors" />
 </a>
 
 *Contributions from team members and invited collaborators are always welcome!*

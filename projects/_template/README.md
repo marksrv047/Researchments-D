@@ -31,8 +31,8 @@ List software required (e.g. Python 3.10+, Node.js v18+, Docker, etc.).
 ### Installation
 ```bash
 # Example setup instructions
-git clone https://github.com/marksrv047/Researchments-D..git
-cd Researchments-D./projects/<project-name>
+git clone https://github.com/marksrv047/Researchments-D.git
+cd Researchments-D/projects/<project-name>
 pip install -r requirements.txt # or npm install
 ```
 

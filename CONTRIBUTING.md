@@ -9,8 +9,8 @@ Thank you for contributing to **Researchments & D.**! Whether you're Mark's frie
 ### 1. Prerequisites & Cloning
 Clone the repository locally:
 ```bash
-git clone https://github.com/marksrv047/Researchments-D..git
-cd Researchments-D.
+git clone https://github.com/marksrv047/Researchments-D.git
+cd Researchments-D
 ```
 
 ### 2. Proposing a Project or Experiment
